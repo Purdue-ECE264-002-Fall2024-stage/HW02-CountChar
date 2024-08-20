@@ -32,11 +32,11 @@ counts, int size)` that opens a file named `filename`. If `fopen` fails
 return false, *DO NOT* `fclose`.
 
 You have to store the count of each
-charecter in the count array. Further instructions are in the comments
+character in the count array. Further instructions are in the comments
 in the function in file `filechar.c`
 
 You also need to write a function called `printCounts(int * counts,
-int size)` that prints out the count of each charecter.  Further
+int size)` that prints out the count of each character.  Further
 instructions are in the comments in the function in file `filechar.c`
 
 Test Your Program
@@ -54,16 +54,4 @@ PS: The program output name can be anything. That does not affect the program.
 
 Submission Instructions
 =======================
-Zip up only filechar.c for each part using the zip command from previous homeworks. 
-The name of the zip file itself does not matter. You must submit to ALL 
-3 Gradescope assignments. 
-
-The reason for the third assignment is to test things like memory leakages and 
-edge cases that are not present in the first two submissions.
-
-**Important**: This assignment has 3 parts. The first part has you implement 
-the `countChar` function. The second part has you implement the `printCounts` function.
-The last part has you combine your code from the first two parts. You MUST only include
-those functions needed in the submission. For example, do not submit a `printCounts` 
-function in the first part of the homework, as this will break the autograder. For part 2,
-do not submit a `countChar` function, as this will break the autograder.
+Zip up only filechar.c for each part using the zip command and submit on gradescope.
